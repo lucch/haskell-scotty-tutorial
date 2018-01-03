@@ -66,7 +66,7 @@ validateTasks tasks = length tasks == 6
 
 main :: IO ()
 main = do
-    tasks' <- liftIO $ newMVar allTasks
+    tasks' <- newMVar allTasks
 
     scotty 3000 $ do
         -- Retorna todas as tarefas.
