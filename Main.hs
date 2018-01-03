@@ -4,7 +4,7 @@ import Web.Scotty
 
 import Control.Concurrent.MVar
 import Control.Monad.IO.Class
-import qualified Data.Map as M
+import qualified Data.Map.Strict as M
 import Network.HTTP.Types
 
 
@@ -62,7 +62,7 @@ validateDay = const True
 
 -- TODO: Implement!
 validateTasks :: [Task] -> Bool
-validateTasks = const True
+validateTasks tasks = length tasks == 6
 
 main :: IO ()
 main = do
