@@ -3,21 +3,9 @@
 import Web.Scotty
 
 import Control.Concurrent.MVar
-import Control.Monad.IO.Class
 import qualified Data.Map.Strict as M
 import Network.HTTP.Types
-
-
-router :: ScottyM ()
-router = do
-    get "/hello" $ do
-        name <- param "name"
-        html $ mconcat ["<h1>Hello, ", name, "!</h1>"]
-        --html "<p>Hello, world!</p>"
-
-    get "/:name" $ do
-        name <- param "name"
-        html $ mconcat ["<h1>Ué, ", name, "!</h1>"]
+import Control.Monad.IO.Class
 
 
 type Day = String
@@ -55,12 +43,10 @@ allTasks = M.fromList
       )
     ]
 
-
 -- TODO: Implement!
 validateDay :: Day -> Bool
 validateDay = const True
 
--- TODO: Implement!
 validateTasks :: [Task] -> Bool
 validateTasks tasks = length tasks == 6
 
