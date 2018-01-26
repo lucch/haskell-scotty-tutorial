@@ -1,9 +1,7 @@
 # Mavins Lee: Deadly Simple Haskell Scotty Tutorial
 
-This is the source code for a tutorial I wrote for the [blog of
-Mavins](https://mavins.com.br/blog) (in PT-BR).
-
----
+This is the source code for a tutorial I wrote for [Mavins
+Blog](https://mavins.com.br/blog) (in PT-BR).
 
 ## Building and running
 
