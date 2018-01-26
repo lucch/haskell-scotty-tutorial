@@ -1,7 +1,8 @@
 # Mavins Lee: Deadly Simple Haskell Scotty Tutorial
 
-This is the source code for a tutorial I wrote for [Mavins
-Blog](https://mavins.com.br/blog) (in PT-BR).
+This is the source code for a
+[tutorial](https://mavins.com.br/blog/api-rest-em-haskell-usando-o-scotty)
+I wrote for Mavins Blog (in PT-BR).
 
 ## Building and running
 
