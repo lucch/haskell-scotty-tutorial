@@ -2,7 +2,7 @@
 
 This is the source code for a
 [tutorial](https://lucchesi.com.br/api-rest-em-haskell-usando-o-scotty/)
-I wrote for Mavins Blog (in PT-BR).
+I wrote on my blog (in PT-BR).
 
 ## Building and running
 
